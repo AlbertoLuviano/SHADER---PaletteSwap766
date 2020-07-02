@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://ColorSwap/SwapArray.png" type="Texture" id=1]
+[ext_resource path="res://ColorSwap/ColorSwap766.shader" type="Shader" id=2]
+
+[resource]
+shader = ExtResource( 2 )
+shader_param/swapArray = ExtResource( 1 )

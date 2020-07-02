@@ -140,7 +140,7 @@ func _on_SpriteChange_pressed(spriteNo):
 			if colorReference < selectionInfo.get(currentSprite)[2]:
 				referenceColors[colorReference].color = originalColors.get(currentSprite)[colorReference]
 		selection.rect_size = selectionInfo.get(currentSprite)[0]
-		currentColor = clamp(currentColor, 0, selectionInfo.get(currentSprite)[2] - 1)
+		currentColor = int(clamp(currentColor, 0, selectionInfo.get(currentSprite)[2] - 1))
 		_on_mouse_entered(currentColor)
 		
 		#Update number of colors in Shader

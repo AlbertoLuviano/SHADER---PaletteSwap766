@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot - Palette Swap"
-run/main_scene="res://ColorSwap.tscn"
+run/main_scene="res://ColorSwap/ColorSwap766.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/height=576
 
 [rendering]
 

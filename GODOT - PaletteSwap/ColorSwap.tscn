@@ -81,7 +81,7 @@ texture = ExtResource( 5 )
 [node name="MFusion" type="Sprite" parent="."]
 material = ExtResource( 6 )
 position = Vector2( 512, 256 )
-scale = Vector2( 0.8, 0.8 )
+scale = Vector2( 8, 8 )
 texture = ExtResource( 7 )
 
 [node name="UI" type="Control" parent="."]
@@ -437,6 +437,40 @@ custom_fonts/font = ExtResource( 8 )
 text = "Dynamic Speed"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HowToUse" type="Label" parent="UI"]
+margin_left = 26.1586
+margin_top = 589.0
+margin_right = 654.159
+margin_bottom = 994.0
+rect_scale = Vector2( 2, 2 )
+text = "Version 1.0 - 100 Color Swap (Grayscale Version)
+
+The setup:
+- Make a copy of your original sprite an recolor it using grayscale values (0.00 - 1.00)
+- Assign the recolored texture in the Sprite node.
+- Assign the material \"ColorSwapMat.tres\" to the Sprite node.
+- Some additional setup is necessary depending on how many colors you wish to use. 
+	*Update the array of the shader, and the reference colors inside of it.
+
+Dynamically changing the colors:
+- Create a new GDScript, reference the material and change the array values inside Shader Params.
+
+How does it work:
+- The shader has an internal array which changes the grayscale of the original sprite
+ and recolors it based on the internal array values.
+
+If you need help, you can watch these tutorials:
+Palette Swap Shader - https://youtu.be/Tn8-vOyi7QY
+Palette Swap Shader 766 - 
+
+Or contact me through the Godot Forums:
+
+Please like, share and comment! 
+I'd love to see your projects and what you will have created with this shader."
 __meta__ = {
 "_edit_use_anchors_": false
 }
