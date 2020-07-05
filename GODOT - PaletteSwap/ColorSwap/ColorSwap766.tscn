@@ -423,11 +423,15 @@ How does it work:
 - The shader uses a texture to map the shades of Red/Green/Blue to the corresponding colors in the PoolColorArray.
 - When the function \"_updateSwapShader()\" is called, a texture is created procedurally using the CPU and then assinged to the shader.
 
-If you need help, you can watch these tutorials:
+If you need help, you can watch these tutorials and get in touch with a comment:
 Palette Swap Shader - https://youtu.be/Tn8-vOyi7QY
-Palette Swap Shader 766 - 
+Palette Swap Shader 766 - https://youtu.be/Tr5N7xwTfkY
 
-Or contact me through the Godot Forums:
+Link to repositories:
+GitHub - https://github.com/AlbertoLuviano/SHADER-Palette-Swap
+GitLab - https://gitlab.com/AlbGD/shader-palette-swap
+Bitbucket - https://bitbucket.org/AlbGD/shader-paletteswap/src/master/
+Itch.io - https://alberto-luviano.itch.io/shader-palette-swap
 
 Please like, share and comment! 
 I'd love to see your projects and what you will have created with this shader."
