@@ -57,7 +57,7 @@ func _updateSwapShader(): # This is the code that makes it all work
 			image.set_pixel(pixelX, pixelY, swapColors[pixelX + pixelY * 256])
 	
 	image.unlock()
-	texture.create_from_image(image, 2)
+	texture.create_from_image(image, 0)
 	
 #	Help needed - Optimization chance. Instead of creating a whole new texture everytime it will be better to partially update the texture.
 #	VisualServer.texture_set_data_partial(texture.get_rid(), image, 2, 0, 1, 1, 0, 0, 0, 0) 
